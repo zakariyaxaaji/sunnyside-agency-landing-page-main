@@ -38,6 +38,9 @@ body{
     aspect-ratio: auto;
 }
 
+header{
+    position: relative;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -48,7 +51,6 @@ nav{
     padding: 3rem 6rem 0rem ;
 }
 .navlinks{
-    position: relative;
     width: 500px;
     display: flex;
     justify-content: space-evenly;
@@ -60,12 +62,12 @@ nav{
 .mobileNav{
     display: none;
     position: absolute;
-    clip-path: polygon(93% 16%, 100% 4%, 100% 100%, 0 100%, 0 16%);
-    left: 14%;
-    top: 7%;
-    width: 70vw;
-    height: 80vh;
-    clip-path: polygon(93% 16%, 100% 4%, 100% 100%, 0 100%, 0 16%);
+    clip-path: polygon(94% 38%, 100% 34%, 100% 100%, 0 100%, 0% 38%);
+    margin: 1rem;
+    top: -187px;
+    left: 29px;
+    width: 418px;
+    height: 90vh;
     background-color:var(--white);
     z-index: 5;
 }
@@ -116,7 +118,7 @@ nav{
     grid-auto-rows: 600px;
     background-color: var(--white);
 }
-.header{
+.header-box{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -126,7 +128,7 @@ nav{
     background-repeat: no-repeat;
     background-position: center bottom;
 }
-.header>h1{
+.header-box>h1{
     font-family: var(--title-font);
     word-spacing: .8rem;
     color: var(--white);
@@ -134,7 +136,7 @@ nav{
     font-size: 4rem;
     
 }
-.header>img{
+.header-box>img{
    margin-top: 5%;
    animation: bounce 2s infinite;
 }
@@ -386,6 +388,11 @@ nav{
     .mobileNav.active{
         display: block;
     }
+    nav{
+        padding: 3rem 3rem;
+    }
+
+
 }
 
 

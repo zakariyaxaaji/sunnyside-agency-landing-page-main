@@ -21,20 +21,20 @@
     <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
   <body>
-    <nav>
-      <img class="logo" src="images/logo.svg" alt="" />
-      <div class="navlinks">
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Projects</a>
-        <button class="btn">Contact</button>
-      </div>
-      <div class="hamburger">
-        <img src="images/icon-hamburger.svg" alt="">
-      </div>
-     
-    </nav>
-     <div class="mobileNav">
+    <header>
+      <nav>
+        <img class="logo" src="images/logo.svg" alt="" />
+        <div class="navlinks">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Projects</a>
+          <button class="btn">Contact</button>
+        </div>
+        <div class="hamburger">
+          <img src="images/icon-hamburger.svg" alt="" />
+        </div>
+      </nav>
+      <div class="mobileNav">
         <div class="mobileNavlinks">
           <a href="#">About</a>
           <a href="#">Services</a>
@@ -42,7 +42,9 @@
           <button class="orangeBtn">Contact</button>
         </div>
       </div>
-    <div class="header">
+    </header>
+
+    <div class="header-box">
       <h1>We Are Creatives</h1>
       <img
         src="images/icon-arrow-down.svg"
@@ -99,63 +101,86 @@
           photos that improve your bussiness image.
         </p>
       </div>
-
-      
     </div>
     <section class="testimonials">
-
-        <h3>Client Testimonials</h3>
-        <div class="person">
-          <div class="profile">
-            <img src="images/image-emily.jpg" alt="">
-          </div>
-          
-          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-          <h4>Emily R.</h4>
-          <h5>Marketing Director</h5>
+      <h3>Client Testimonials</h3>
+      <div class="person">
+        <div class="profile">
+          <img src="images/image-emily.jpg" alt="" />
         </div>
 
-        <div class="person">
-          <div class="profile">
-            <img src="images/image-thomas.jpg" alt="">
-          </div>
-          <p>Sunnyside's enthusiasm coupled with their keen intrest in our brands's success made it a satisfying and enjoyable experience.</p>
-          <h4>Thomas S.</h4>
-          <h5>Chief Operations Officer</h5>
-        </div>
+        <p>
+          We put our trust in Sunnyside and they delivered, making sure our
+          needs were met and deadlines were always hit.
+        </p>
+        <h4>Emily R.</h4>
+        <h5>Marketing Director</h5>
+      </div>
 
-        <div class="person">
-          <div class="profile">
-            <img src="images/image-jennie.jpg" alt="">
-          </div>
-          <p>incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-          <h4>Jennie F.</h4>
-          <h5>bussiness Owner</h5>
+      <div class="person">
+        <div class="profile">
+          <img src="images/image-thomas.jpg" alt="" />
         </div>
-      </section>
-      <section class="carosel">
-        <div class="caroselImg"><img src="images/desktop/image-gallery-milkbottles.jpg" alt=""></div>
-        <div class="caroselImg"><img src="images/desktop/image-gallery-orange.jpg" alt=""></div>
-        <div class="caroselImg"><img src="images/desktop/image-gallery-cone.jpg" alt=""></div>
-        <div class="caroselImg"><img src="images/desktop/image-gallery-sugarcubes.jpg" alt=""></div>
-      </section>
+        <p>
+          Sunnyside's enthusiasm coupled with their keen intrest in our brands's
+          success made it a satisfying and enjoyable experience.
+        </p>
+        <h4>Thomas S.</h4>
+        <h5>Chief Operations Officer</h5>
+      </div>
 
-      <footer class="footer">
-        <div class="footerLogo">
-          <img src="images/logo.svg" alt="logo" >
+      <div class="person">
+        <div class="profile">
+          <img src="images/image-jennie.jpg" alt="" />
         </div>
-        <div class="footerLinks">
-          <a href="">About</a>
-          <a href="">Services</a>
-          <a href="">Projects</a>
-        </div>
-        <div class="socials">
-          <a href=""><img src="images/icon-facebook.svg" alt="facebook logo"></a>
-          <a href=""><img src="images/icon-instagram.svg" alt="instagram logo"></a>
-          <a href=""><img src="images/icon-twitter.svg" alt="twitter logo"></a>
-          <a href=""><img src="images/icon-pinterest.svg" alt="Pintrest logo"></a> 
-        </div>
-        <p class="credit">This web page was a Challenge from Frontend Mentor. The design was done by them. Code by Zakariya</p>
-      </footer>
+        <p>
+          incredible end result! Our sales increased over 400% when we worked
+          with Sunnyside. Highly recommended!
+        </p>
+        <h4>Jennie F.</h4>
+        <h5>bussiness Owner</h5>
+      </div>
+    </section>
+    <section class="carosel">
+      <div class="caroselImg">
+        <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" />
+      </div>
+      <div class="caroselImg">
+        <img src="images/desktop/image-gallery-orange.jpg" alt="" />
+      </div>
+      <div class="caroselImg">
+        <img src="images/desktop/image-gallery-cone.jpg" alt="" />
+      </div>
+      <div class="caroselImg">
+        <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="" />
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footerLogo">
+        <img src="images/logo.svg" alt="logo" />
+      </div>
+      <div class="footerLinks">
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Projects</a>
+      </div>
+      <div class="socials">
+        <a href=""
+          ><img src="images/icon-facebook.svg" alt="facebook logo"
+        /></a>
+        <a href=""
+          ><img src="images/icon-instagram.svg" alt="instagram logo"
+        /></a>
+        <a href=""><img src="images/icon-twitter.svg" alt="twitter logo" /></a>
+        <a href=""
+          ><img src="images/icon-pinterest.svg" alt="Pintrest logo"
+        /></a>
+      </div>
+      <p class="credit">
+        This web page was a Challenge from Frontend Mentor. The design was done
+        by them. Code by Zakariya
+      </p>
+    </footer>
   </body>
 </html>
