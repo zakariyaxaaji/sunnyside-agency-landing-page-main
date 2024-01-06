@@ -399,7 +399,12 @@ nav{
     .graphic-left>p {
         width:auto;
     }
-   
+   nav{
+    margin: 0 1rem;
+   }
+   .mobileNavlinks{
+    margin: 0 1rem;
+   }
  
 }
 
